@@ -3,7 +3,7 @@ location                            = "eastus2"
 prefix_name                         = "demoaks"
 aks_agent_count                     = 3
 aks_agent_vm_size                   = "Standard_D2_v2"
-aks_kubernetes_version              = "1.14.6"
+aks_kubernetes_version              = "1.16.9"
 
 # AKS service network parameters
 aks_service_cidr                    = "10.200.0.0/16"
@@ -19,13 +19,13 @@ app_gateway_subnet_name             = "agw-subnet"
 app_gateway_subnet_address_prefix   = "10.0.130.0/24"
 
 # Azure subscription ID and tenant ID to create resources
-subscription_id                     = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-tenant_id                           = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+subscription_id                     = "50821cca-944d-404e-ad6c-9457e16ebee9"
+tenant_id                           = "6de5795e-c12d-4d36-b706-e2a2ffdbc337"
 
 # Azure AD Service Principal to run Terraform (requires Owner Role). 
 # To create, run: az ad sp create-for-rbac --role="Owner" --scopes="/subscription_ids/<YOUR_SUBSCRIPTION_ID>"
-client_id                           = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-client_secret                       = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" 
+client_id                           = "7534c854-5e5d-41b2-b39f-36ad76fd79e3"
+client_secret                       = "EX1o5mEfA8Y_lIZP2.Zi40_992bOQ67_Nx" 
 
 # Application Gateway parameters
 app_gateway_sku                     = "Standard_v2"
